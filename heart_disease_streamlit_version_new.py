@@ -8,7 +8,6 @@ This is a temporary script file.
 import pickle
 import numpy as np
 import streamlit as st
-import sklearn
 
 #loading the ml model
 loaded_model=pickle.load(open("model_heart_disease_pickle","rb"))
